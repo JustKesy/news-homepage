@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 70px;
-  width: 1400px;
+  width: 1420px;
 }
 .logo {
   width: 800px;
@@ -11,7 +11,7 @@
 }
 .header {
   width: 400px;
-  column-gap: 40px;
+  column-gap: 50px;
   display: flex;
   justify-content: flex-end;
 
@@ -80,7 +80,7 @@ h2.title {
   margin: 0px;
 }
 h2.title:hover {
-  color: gold;
+  color: goldenrod;
 }
 .middle-right p {
   margin-top: 0px;
