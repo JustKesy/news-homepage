@@ -1,0 +1,137 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 1400px;
+}
+.logo {
+  width: 800px;
+  align-self: center;
+  padding-left: 20px;
+}
+.header {
+  width: 400px;
+  column-gap: 40px;
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+.middle {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 1400px;
+}
+.middle-left {
+  display: flex;
+  flex-direction: column;
+}
+.middle-img img {
+  width: 1000px;
+}
+.left-bottom {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.left-bold {
+  width: 270px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.left-text {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn {
+  width: 140px;
+  height: 35px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.middle-right {
+  display: flex;
+  flex-direction: column;
+  width: 273px;
+  padding: 10px 35px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.main {
+  width: 1500px;
+}
+.dott {
+  border: 1px dotted blue;
+}
+.gold {
+  font-size: 50px;
+  color: goldenrod;
+}
+h2.title {
+  margin: 0px;
+}
+h2.title:hover {
+  color: gold;
+}
+.middle-right p {
+  margin-top: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header a:hover {
+  color: red;
+}
+.btn:hover {
+  background-color: black;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 1420px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+.cont {
+  display: flex;
+  width: 400px;
+}
+.cont img {
+  width: 135px;
+  height: 180px;
+}
+.cont-text {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding-left: 30px;
+  justify-content: space-between;
+}
+.cont-text h1,
+.cont-text h3,
+.cont-text p {
+  margin-top: 0px;
+}
+.cont-text p {
+  margin-bottom: 0px;
+}
+.cont-text h1 {
+  color: grey;
+}
+.cont-text h3:hover {
+  color: red;
+}
